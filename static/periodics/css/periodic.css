@@ -1,0 +1,233 @@
+body {
+    background: none repeat scroll 0 0 #e8e8e8;
+}
+
+h2{
+    color: #7A7A7A;
+    text-align : center;
+}
+
+#banner h1{
+    color: #7A7A7A;
+}
+
+#middle {
+    padding-top: 90px;
+}
+.etabs { 
+    margin: 0; 
+    padding: 0; 
+}
+.tab { 
+    width: 25%;
+    display: inline-block; 
+    zoom:1; 
+         *display:inline; 
+         background: #eee; 
+         border-bottom: none; 
+         text-align: center;
+         -moz-border-radius: 4px 4px 0 0; 
+         -webkit-border-radius: 4px 4px 0 0; 
+}
+.tab a { 
+    font-size: 14px; 
+    line-height: 2em; 
+    display: block; 
+    padding: 0 10px; 
+    outline: none; 
+}
+.tab a:hover { 
+    background :#006db6 ;
+    color: #eee;
+    text-decoration: none;
+}
+.tab.active { 
+    background: #fff; 
+    padding-top: 6px; 
+    position: relative; 
+    top: 1px; 
+    border-color: #666; 
+}
+.tab a.active { 
+    font-weight: bold; 
+}
+.tab-container{ 
+    float: left;
+    width: 60%;
+    background: #fff; 
+    border: solid #666 1px; 
+    padding: 10px; 
+    -moz-border-radius: 0 4px 4px 4px; 
+    -webkit-border-radius: 0 4px 4px 4px; 
+} 
+.container {
+    margin: 0 auto;
+}
+.wrap {
+    float: right;
+    margin: 0 40px 3em 0;
+    position: relative;
+    width: 30%;
+}
+.wrap:nth-child(2n) {
+    margin-right: 0;
+}
+.frame {
+    border: 1px solid #444;
+    height: 400px;
+    overflow: hidden;
+    width: 90%;
+}
+.frame .slidee {
+    background: none repeat scroll 0 0 #fff;
+    padding: 20px 25px;
+}
+.frame ul.items {
+    font-size: 24px;
+    line-height: 100px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.frame ul.items li {
+    background: none repeat scroll 0 0 #333;
+    color: #ddd;
+    cursor: pointer;
+    float: left;
+    height: 100px;
+    margin: 0 0 1px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.frame ul.items li.active {
+    background: none repeat scroll 0 0 #a03232;
+    color: #fff;
+}
+.scrollbar {
+    background: none repeat scroll 0 0 #ccc;
+    height: 400px;
+    line-height: 0;
+    position: absolute;
+    right: 10px;
+    width: 2px;
+}
+.scrollbar .handle {
+    background: none repeat scroll 0 0 #292a33;
+    cursor: pointer;
+    height: 80px;
+    width: 100%;
+}
+.scrollbar .handle .mousearea {
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    top: 0;
+    width: 22px;
+}
+.pages {
+    list-style: none outside none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+}
+.pages li {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2) inset;
+    cursor: pointer;
+    display: inline-block;
+    height: 14px;
+    margin: 0 4px;
+    overflow: hidden;
+    text-indent: -999px;
+    width: 14px;
+}
+.pages li:hover {
+    background: none repeat scroll 0 0 #aaa;
+}
+.pages li.active {
+    background: none repeat scroll 0 0 #666;
+}
+.controls {
+    margin: 25px 0;
+    text-align: center;
+}
+
+.slidee{
+    border: 1px solid #444;
+    height: 600px;
+    overflow: hidden;
+    width: 90%;
+    margin: 10px auto auto;
+}
+
+.slidee ul.app-items {
+    font-size: 24px;
+    line-height: 100px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.slidee ul.app-items li {
+    background: none repeat scroll 0 0 #333;
+    color: #ddd;
+    cursor: pointer;
+    float: left;
+    height: 300px;
+    margin: 0 0 1px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.slidee ul.app-items li.active {
+    background: none repeat scroll 0 0 #a03232;
+    color: #fff;
+}
+
+
+.appwrap {
+    width:600px;
+    margin:0 auto;
+    text-align:left;
+    padding: 0;
+    color:#989A8F;
+}
+
+.tablet {
+    background-color:#ffffff; 
+    width:100%;
+    height: 300px;
+    padding: 0;
+    list-style: none;
+}
+
+.appwrap ul.tablet li {
+    float:left;
+    width:calc(100%/3);
+    height: 100px;
+    text-align:center;
+    border-left:0px solid #DDDCD8;
+    font-size: 12px;
+}
+
+.top{
+    background-color:#333;
+    height:50px;
+    margin:0;
+}
+
+.top h1{
+        font-size:12px;
+        margin: 0;
+ 
+}
+.bottom p {
+        font-size:14px;
+        font-family: 'Droid Serif', sans-serif;
+}
+

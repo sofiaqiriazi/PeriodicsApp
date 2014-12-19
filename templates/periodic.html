@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="tab-container" class="tab-container">
+    <ul class='etabs'></ul>
+</div>
+<div class="dashboard-menu wrap">
+    <h2>Latest News</h2>
+    <div class="scrollbar">
+        <div class="handle">
+            <div class="mousearea"></div>
+        </div>
+    </div>
+    <div class="frame smart" id="smart">
+        <ul class="items"></ul>
+    </div>
+    <div class="controls center">
+        <button class="btn prev"><i class="icon-chevron-left"></i> prev</button>
+        <button class="btn next">next <i class="icon-chevron-right"></i></button>
+    </div>
+</div>
+
+{% endblock content %}
